@@ -1,0 +1,45 @@
+﻿@model Department
+
+@{
+    ViewData["Title"] = "Delete Department";
+}
+
+<h1>Hapus Pegawai</h1>
+
+<p>
+    Are You Sure?
+</p>
+
+@using (Html.BeginForm("Delete", "Department", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <table class="table">
+        <tr>
+            <td>
+                <input type="submit" value="Yes">
+                |
+                <a asp-action="Index"><input type="button" value="No"></a>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                Name
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Name)
+                <input type="hidden" id="Name" name="Name" value="@Html.DisplayFor(modelItem => @Model.Name)">
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Division Name
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => @Model.Division.Name)
+                <input type="hidden" id="DivisionId" name="DivisionId" value="@Html.DisplayFor(modelItem => @Model.DivisionId)">
+            </td>
+        </tr>
+     
+    </table>
+}
