@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{D68D2821-36C4-46E1-B2DE-B635B6439CFB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DTSMCC_WebApp/Views/Department/Create.cshtml">
+    <Files>
+      <File FileName="DTSMCC_WebApp/Controllers/DepartmentController.cs" Line="36" Column="66" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Create.cshtml" Line="38" Column="38" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Index.cshtml" Line="45" Column="9" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Update.cshtml" Line="53" Column="10" />
+      <File FileName="DTSMCC_WebApp/Views/Department/Delete.cshtml" Line="49" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DTSMCC_WebApp" expanded="True">
+            <Node name="DTSMCC_WebApp" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Department" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DTSMCC__WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
